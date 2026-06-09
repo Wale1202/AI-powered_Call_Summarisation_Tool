@@ -1,0 +1,7 @@
+ {
+      "type": "java",
+      "name": "CallSummarisationApp",
+      "request": "launch",
+      "mainClass": "brightbeam.CallSummarisationApp",
+      "args": "transcripts/1-transcript.txt"
+  }
