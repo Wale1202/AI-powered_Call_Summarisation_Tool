@@ -74,7 +74,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>brightbeam.CallSummarisationApp</mainClass>
+                <mainClass>com.example.CallSummarisationApp</mainClass>
               </manifest>
             </archive>
           </configuration>

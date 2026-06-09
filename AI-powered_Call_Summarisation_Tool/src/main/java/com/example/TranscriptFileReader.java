@@ -1,4 +1,4 @@
-package brightbeam;
+package com.example;
 
 import java.io.IOException;
 import java.nio.file.Files;

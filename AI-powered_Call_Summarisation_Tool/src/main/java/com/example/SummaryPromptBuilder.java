@@ -1,4 +1,4 @@
-package brightbeam;
+package com.example;
 
 final class SummaryPromptBuilder {
 

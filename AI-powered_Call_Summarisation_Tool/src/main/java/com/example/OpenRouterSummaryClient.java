@@ -1,4 +1,4 @@
-package brightbeam;
+package com.example;
 
 import com.openai.client.OpenAIClient;
 import com.openai.client.okhttp.OpenAIOkHttpClient;
@@ -15,10 +15,10 @@ final class OpenRouterSummaryClient {
     private final OpenAIClient openAiClient;
 
     OpenRouterSummaryClient() {
-        String apiKey = System.getenv("OPENROUTER_API_KEY");
+        String apiKey = System.getenv("OPENAI_API_KEY");
         if (apiKey == null || apiKey.isBlank()) {
             throw new IllegalStateException(
-                    "OPENROUTER_API_KEY environment variable is not set. "
+                    "OPENAI_API_KEY environment variable is not set. "
                             + "Export it before running the application.");
         }
         this.openAiClient = OpenAIOkHttpClient.builder()
